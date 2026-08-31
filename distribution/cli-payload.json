@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "note": "The intermediate payload the core CLI extracts before materializing a customer project. Deliberately narrower than the public source repository: it carries the application, reusable test inputs, brand configuration and materializer closure, not the repository's governance, design inventory or release workflows. The materializer is the single owner of the final generated-project file selection.",
+  "include": [
+    "src/",
+    "assets/images/",
+    "assets/figma/brand-mark.svg",
+    "template/",
+    "scripts/build-cli-payload.mjs",
+    "scripts/check-public-environment.mjs",
+    "scripts/generate-template-profile.mjs",
+    "scripts/materialize-mobile-template.mjs",
+    "scripts/template-design-profiles.mjs",
+    "scripts/template-profile.mjs",
+    "scripts/template-release.mjs",
+    "app.config.ts",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "eslint.config.cjs",
+    "expo-env.d.ts",
+    ".nvmrc",
+    ".gitignore",
+    ".env.example",
+    "README.md",
+    "LICENSE"
+  ],
+  "exclude": [],
+  "rationale": {
+    "src/": "The application and its reusable tests. The materializer removes repository-only evidence tests when creating the customer project; keeping that decision in one owner prevents local and released generation from drifting.",
+    "assets/images/": "App icons and splash imagery. Every file passes the ownership ledger before a release is published.",
+    "assets/figma/brand-mark.svg": "The default manifest's brand mark; custom manifests can replace it from their validated asset root.",
+    "template/": "The canonical brand manifest, fixtures and release policy consumed by the materializer.",
+    "scripts/materialize-mobile-template.mjs": "The core CLI invokes this intermediate runner directly. Its transitive imports and every root file it copies into the generated project are included; it rewrites package.json and package-lock.json before the customer project is exposed."
+  }
+}

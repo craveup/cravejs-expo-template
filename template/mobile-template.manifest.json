@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "templateRelease": "0.1.0",
+  "generatedFiles": [
+    "src/config/brand.config.ts",
+    "src/config/brand-assets.ts",
+    "src/theme/brand-theme.ts",
+    "src/theme/brand-fonts.ts"
+  ],
+  "brand": {
+    "displayName": "Crave.js Storefront",
+    "legalName": "Crave.js Storefront",
+    "slug": "cravejs-storefront",
+    "scheme": "cravejsstorefront",
+    "iosBundleIdentifier": "com.example.cravejsstorefront",
+    "androidPackage": "com.example.cravejsstorefront",
+    "copy": {
+      "bagEmptyBody": "Your bag is empty. Browse the menu to start an order.",
+      "bagEmptyTitle": "Nothing in your bag yet",
+      "catalogCategoriesTitle": "Browse the menu",
+      "catalogFooterBody": "Fresh ingredients, prepared to order.",
+      "catalogFooterTitle": "Made for the way you order.",
+      "catalogHeroEyebrow": "Order ahead and skip the queue",
+      "catalogHeroTitle": "ORDER SOMETHING GOOD",
+      "noNearbyStoresTitle": "No locations near you yet",
+      "signInClubLabel": "REWARDS",
+      "welcomeOnboardingBody": "Browse the menu, build your order and pick it up when it suits you. Sign in to keep your details for next time.",
+      "welcomeOnboardingTitle": "Ordering made simple"
+    },
+    "assets": {
+      "icon": "assets/images/icon.png",
+      "adaptiveIconForeground": "assets/images/android-icon-foreground.png",
+      "adaptiveIconBackground": "assets/images/android-icon-background.png",
+      "adaptiveIconMonochrome": "assets/images/android-icon-monochrome.png",
+      "splash": "assets/images/splash-icon.png",
+      "favicon": "assets/images/favicon.png",
+      "brandMark": "assets/figma/brand-mark.svg"
+    },
+    "colorTokenProfile": "crave-orchard",
+    "fontTokenProfile": "outfit-figtree",
+    "links": {
+      "privacy": "https://storefront.example/privacy",
+      "terms": "https://storefront.example/terms",
+      "support": "https://support.storefront.example/help",
+      "universalLinkHosts": [
+        "storefront.example"
+      ],
+      "androidAppLinkHosts": [
+        "storefront.example"
+      ]
+    },
+    "analyticsNamespace": "cravejs_storefront",
+    "notificationNamespace": "com.example.cravejsstorefront.notifications",
+    "capabilities": {
+      "delivery": "gated",
+      "loyalty": "gated",
+      "favourites": "enabled",
+      "claims": "gated",
+      "savedCards": "gated",
+      "applePay": "gated",
+      "googlePay": "gated",
+      "pushNotifications": "gated"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "templateRelease": "0.1.0",
+  "generatedFiles": [
+    "src/config/brand.config.ts",
+    "src/config/brand-assets.ts",
+    "src/theme/brand-theme.ts",
+    "src/theme/brand-fonts.ts"
+  ],
+  "brand": {
+    "displayName": "Northstar Coffee",
+    "legalName": "Northstar Coffee Company",
+    "slug": "northstar-coffee",
+    "scheme": "northstarcoffee",
+    "iosBundleIdentifier": "com.example.northstarcoffee",
+    "androidPackage": "com.example.northstarcoffee",
+    "copy": {
+      "bagEmptyBody": "Your next coffee is waiting. Browse the menu to start an order.",
+      "bagEmptyTitle": "Your bag is empty",
+      "catalogCategoriesTitle": "Coffee for every moment",
+      "catalogFooterBody": "Thoughtfully sourced beans and careful roasting.",
+      "catalogFooterTitle": "Find your next favorite.",
+      "catalogHeroEyebrow": "Roasted in small batches, shared with care",
+      "catalogHeroTitle": "BREW SOMETHING BRIGHT",
+      "noNearbyStoresTitle": "No Northstar shops near you yet",
+      "signInClubLabel": "NORTHSTAR REWARDS",
+      "welcomeOnboardingBody": "Small-batch coffee, roasted with care and ready when you are. Order ahead, skip the queue, earn a cup.",
+      "welcomeOnboardingTitle": "Coffee made for your day"
+    },
+    "assets": {
+      "icon": "template/fixtures/assets/reference-app-icon.png",
+      "adaptiveIconForeground": "template/fixtures/assets/reference-adaptive-foreground.png",
+      "adaptiveIconBackground": "template/fixtures/assets/reference-background.png",
+      "adaptiveIconMonochrome": "template/fixtures/assets/reference-monochrome.png",
+      "splash": "template/fixtures/assets/reference-splash.png",
+      "favicon": "template/fixtures/assets/reference-favicon.png",
+      "brandMark": "template/fixtures/assets/reference-brand-mark.svg"
+    },
+    "colorTokenProfile": "northstar-forest",
+    "fontTokenProfile": "source-sans",
+    "links": {
+      "privacy": "https://northstar-coffee.example/privacy",
+      "terms": "https://northstar-coffee.example/terms",
+      "support": "https://support.northstar-coffee.example/help",
+      "universalLinkHosts": [
+        "northstar-coffee.example"
+      ],
+      "androidAppLinkHosts": [
+        "northstar-coffee.example"
+      ]
+    },
+    "analyticsNamespace": "northstar_coffee",
+    "notificationNamespace": "com.example.northstarcoffee.notifications",
+    "capabilities": {
+      "delivery": "disabled",
+      "loyalty": "enabled",
+      "favourites": "disabled",
+      "claims": "disabled",
+      "savedCards": "disabled",
+      "applePay": "disabled",
+      "googlePay": "disabled",
+      "pushNotifications": "disabled"
+    }
+  }
+}

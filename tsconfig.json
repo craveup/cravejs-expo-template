@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/assets/*": [
+        "./assets/*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    // Typed routes. Written by the dev server's type generator, never by `npm ci` or `tsc`, and
+    // git-ignored — so this include is empty on a CI runner and `<Link href>` goes unchecked there.
+    // Run `npx expo start` at least once locally. See docs/DEVELOPMENT-WORKFLOW.md, CI policy.
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}

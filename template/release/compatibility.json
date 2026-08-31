@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "1.0.0",
+  "identity": {
+    "id": "expo",
+    "repository": "craveup/cravejs-expo-template",
+    "platform": "expo",
+    "profile": "template"
+  },
+  "template": {
+    "versioning": "semver-2.0.0",
+    "minimumVersion": "0.1.0"
+  },
+  "cli": {
+    "minimumVersion": "2.0.0"
+  },
+  "node": {
+    "major": 24
+  },
+  "sdk": {
+    "package": "@craveup/storefront-sdk",
+    "version": "2.0.1",
+    "integrity": "sha512-dqvAtGf9+0ZVbG57iDAXNs4HAy+N37u9bmx5+y8KFFsVxOkvrPP5rhrLv7BBKvLosdhooi8YRAQsWCW9xxuJog=="
+  },
+  "openapi": {
+    "apiRelease": "52cac07f74f1b8ca9a931354240560ef9beb4dce",
+    "sha256": "c7c980784820e8ab7dd42a0e66e648c6548f6b083a4f155665c1c3b5ac3d6722"
+  },
+  "configSchema": {
+    "version": "1.0.0",
+    "source": "scripts/template-profile.mjs"
+  },
+  "packageManager": "npm",
+  "commands": {
+    "generate": "npm run template:materialize",
+    "verify": "npm run verify",
+    "start": "npx expo start"
+  },
+  "upgrade": {
+    "conflictStrategy": "stop",
+    "allowMutableSources": false,
+    "allowPrivateRepositories": false
+  }
+}

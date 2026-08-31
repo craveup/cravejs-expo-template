@@ -1,0 +1,52 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+.worktrees/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+
+# typescript
+*.tsbuildinfo
+
+
+# generated native folders
+/ios
+/android
+
+# local env — never commit FIGMA_TOKEN or Crave API keys.
+# Ignore every env file and un-ignore only the template, so .env.production,
+# .env.staging and anything added later are covered by default.
+.env*
+!.env.example
+!.env.figma.example
+
+# macOS
+
+# per-developer agent tool permissions (.claude/settings.json stays shared)
+.claude/settings.local.json

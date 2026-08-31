@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "note": "Neutral assets generated from repository-owned primitives for the public Crave.js Expo template. Approval is bound to exact bytes.",
+  "statuses": {
+    "crave-owned": "Programmatically authored for this public template and owned by Crave Up, Inc.",
+    "licensed": "Third-party work with recorded source and licence.",
+    "unconfirmed": "Blocks release."
+  },
+  "assets": [
+    {
+      "path": "assets/images/icon.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "be4fada971c7ecb84e10646579c904604bfe2a55c0f91d20a71fe761b883aa3b"
+    },
+    {
+      "path": "assets/images/splash-icon.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "bede97253bd13a972e5ac2ffa28b1f149722bb44227cf017010f7d79817b0444"
+    },
+    {
+      "path": "assets/images/favicon.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "09363806b6934c9a3bfa62d8fdc75e54c1bc0ed2ee58285671c1d62d1ca5fc83"
+    },
+    {
+      "path": "assets/images/android-icon-background.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "f2714710d28a210cbc0c2235718945f2e6af2b3a9929aebd6f3afebc6ee21674"
+    },
+    {
+      "path": "assets/images/android-icon-foreground.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "cfd381a7bf133d15f4b24266f0ad73abbedcd8c8fe9b413b98732e750c92d047"
+    },
+    {
+      "path": "assets/images/android-icon-monochrome.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "4d785fa14858bb5882c0c4428111533e504474a82a9c1fee1405c727ffd54e23"
+    },
+    {
+      "path": "template/fixtures/assets/reference-app-icon.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "553a4a8c5a7e812c6c485d32685b4681be0e9174a3faa973cad495fdd038249c"
+    },
+    {
+      "path": "template/fixtures/assets/reference-splash.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "3f0268125f8caadd1d0e3f7d7e119d2a87349fd885f7bed2ecc855dd86737beb"
+    },
+    {
+      "path": "template/fixtures/assets/reference-favicon.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "6d96c96e23add83ab097431133272e24fc4c3cb3aea7ce7950767f5a609d5d44"
+    },
+    {
+      "path": "template/fixtures/assets/reference-background.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "1bad1fef23b1b9d10d12b1d30906ab68e55b82ceeb8ba817f28cd26e8970124e"
+    },
+    {
+      "path": "template/fixtures/assets/reference-adaptive-foreground.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "6aed7e9e21643681eff02bdfaf0fadc2cc39f17f162eb78da99d6d23a69ee1bc"
+    },
+    {
+      "path": "template/fixtures/assets/reference-monochrome.png",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "4d785fa14858bb5882c0c4428111533e504474a82a9c1fee1405c727ffd54e23"
+    },
+    {
+      "path": "assets/figma/brand-mark.svg",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "84fa5e12650be63f8e839d57992d18b660e0b77b2fa5a90c97fa2715ba636c69"
+    },
+    {
+      "path": "template/fixtures/assets/reference-brand-mark.svg",
+      "status": "crave-owned",
+      "source": "scripts/create-public-mirror-snapshot.mjs",
+      "license": "MIT",
+      "sha256": "d27a9c3db30eb62aa52a4b598bcc8401dbb2319a8f0c52bdedd8686844315bfd"
+    }
+  ]
+}
